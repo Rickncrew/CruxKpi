@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>333 Energy</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+</head>
+<body>
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>333 Energy</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#">Our Mission</a></li>
+      <li><a href="#">Ingredients</a></li>
+      <li><a href="#" role="button">Buy Now</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <div class="grid">
+      <section>
+        <hgroup>
+          <h2>Hydration. Power. Purity.</h2>
+          <h3>100% Organic – No Additives – Athlete Approved</h3>
+        </hgroup>
+        <p>
+          Meet <strong>333 Energy</strong> — the ultimate ultra-slim energy drink made for peak performance and all-natural refreshment.
+          Designed with athletes in mind, every 12oz can delivers clean hydration without compromise.
+        </p>
+
+        <figure>
+          <img src="https://images.unsplash.com/photo-1601412436009-65f0e7aa12c4?fit=crop&w=900&q=80" alt="333 Energy ultra-slim can" />
+          <figcaption>
+            <a href="https://unsplash.com/photos/l3N9Q27zULw" target="_blank">Image via Unsplash</a>
+          </figcaption>
+        </figure>
+
+        <h3>Built for Performance</h3>
+        <p>
+          Whether you're hitting the gym, training outdoors, or just living an active life — 333 Energy supports you with fast-absorbing hydration and essential electrolytes.
+        </p>
+
+        <h3>100% Organic. Always Clean.</h3>
+        <p>
+          We believe in purity. That’s why 333 Energy is crafted with 100% organic ingredients and absolutely no artificial additives or chemicals.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <section aria-label="Subscribe example">
+    <div class="container">
+      <article>
+        <hgroup>
+          <h2>Stay Fueled</h2>
+          <h3>Subscribe for news, athlete stories & special offers</h3>
+        </hgroup>
+        <form class="grid">
+          <input type="text" id="firstname" name="firstname" placeholder="Your name" aria-label="First name" required />
+          <input type="email" id="email" name="email" placeholder="Your email" aria-label="Email address" required />
+          <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+        </form>
+      </article>
+    </div>
+  </section>
+
+  <footer class="container">
+    <small>
+      <a href="#">Privacy Policy</a> • 
+      <a href="#">Terms of Service</a>
+    </small>
+  </footer>
+</body>
+</html>
